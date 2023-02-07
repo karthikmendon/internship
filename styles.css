@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+a:hover
+{
+    text-decoration: dotted;
+}
+a:active{
+    background-color: aqua;
+}
+a:visited{
+    background-color: red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
