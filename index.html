@@ -120,29 +120,131 @@
         In that case, copying, modifying, and running test cases becomes laborious. You need to switch tabs to copy-paste test cases and modify them. Solving problems is already challenging.
     </p>
 
-    <table style="width: 100%;margin-bottom: 50px;">
+    <table style="width: 100%;margin-bottom: 100px;">
         <tr>
             <th>sl.no</th>
-            <th>name</th>
-            <th>age</th>
+            <th colspan="2">name</th>
         </tr>
         <tr>
             <td>1</td>
             <td>jhon</td>
-            <td>35</td>
+            <td>cena</td>
         </tr>
         <tr>
             <td>2</td>
             <td>cane</td>
-            <td>25</td>
+            <td>hello</td>
+        </tr>
+        
+    </table>
+
+    <table style="width: 100%;margin-bottom: 100px;">
+        <tr>
+            <th>name</th>
+            <td>jhon</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>hhh</td>
-            <td>40</td>
+            <th rowspan="2">phone</th>
+            <td>9972014917</td>
         </tr>
+        <tr>
+            <td>8971207371</td>
+        </tr>
+        
     </table>
+
+    <ul style="text-align: initial;list-style-type: square;">
+        <li>Apple</li>
+        <li>orange</li>
+        <li>grapes</li>
+        <li>potato</li>
+        <li>tomato</li>
+    </ul>
+
+    <ol type="I" style="text-align: start;">
+        <li>Apple</li>
+        <li>orange</li>
+        <li>grapes</li>
+        <li>potato</li>
+        <li>tomato</li>
+    </ol>
+
+    <!-- <iframe src="file:///C:/Users/karth/Desktop/intern/index.html" width="500px" height="500px" frameborder="10"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l_ddxKWNZqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.060275396836!2d74.95774148388348!3d13.050620553584334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba3557f8322286d%3A0x258a2e8d6d4b45b0!2sMangalore%20Institute%20of%20Technology%20and%20Engineering%2C%20MITE!5e0!3m2!1sen!2sin!4v1675838183022!5m2!1sen!2sin" width="250" height="250" style="border:10;" allowfullscreen="allow" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+    <p class="dummy">class attribute</p>
+    <p id="demo">id attribute</p>
+
+    <form style="margin-bottom: 200px;">
+        <label for="">Name</label>
+        <input type="text" value="demo" disabled><br><br>
+
+        <label for="">password</label>
+        <input type="password" placeholder="Enter your password" required><br><br>
+
+        <label for="">Email</label>
+        <input type="email"><br><br>
+        <select>
+            <option value="0">select a item</option>
+            <option value="ford">ford</option>
+            <option value="bmw">bmw</option>
+            <option value="benz">benz</option>
+        </select><br><br>
+
+        <input type="file" style="color: blue;"><br><br>
+        <input type="submit" style="">
+    </form>
+
+    <button onclick="myFunction(5, 10)">Alert</button>
+    <button onclick="myFunction(50, 100)">add</button>
     
+    <script>
+
+        // var a=10;
+        // let b=15;
+        // const c=20;
+        // var total =a+b+c;
+        // var x=100;
+        // x+=5;
+        // var bol=false;
+        // var str1 ="Hello";
+        // var p=5;
+        // var str2="world!"
+        // // console.log(x==10)
+        // // console.log(x<10)
+        // // console.log(x!==10)
+        // // console.log(x>10)
+
+        // // console.log(x==10 || x!==10);
+        // // console.log(!(x==10));
+
+        var arr=[1,2,3,4,5,6]
+        
+
+        arr.map((item) => {
+            console.log(item);
+        });
+        // // var obj={name:"acclerlab",year:2012,color:"orange"}
+        // // console.log(obj.name);
+        // //  var date=new Date();
+        // // console.log(date.getDate());
+
+        
+        // document.getElementById("demo").innerHTML="hello world";
+
+        function myFunction(x,y){
+            if (x==5) {
+                alert("x is equal to 5")
+            }
+            else{
+                alert("x is not eqaual to 5")
+            }
+        }
+
+
+    </script>
+    <noscript>Sorry your browser does not support javascript</noscript>
 
 </body>
 </html>

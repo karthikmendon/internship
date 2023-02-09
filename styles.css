@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: #afba14;
 }
 a:hover
 {
@@ -18,4 +19,22 @@ html{
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+.demo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dummy{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f30a0a;
+}
+
+@media{
+    body{
+        background-color: aqua;
+
+    }
 }
